@@ -17,6 +17,6 @@ END=" -c copy -tune zerolatency -flags +global_header -strict -2 -f mpegts pipe:
 #download iptv-playlist
 wget -O $M3U $URL
 #adding a pipe for lines with links to media streams
-sed "/${STRING}/s/^/${START}/;/${STRING}/s/$/${END}/;s/\r//g" $M3U > $M3U_FFMPEG
+sed "/${STRING}/s/.*/${START}&${END}/;s/\r//g" $M3U_SHARA > $M3U_SHARA_FFMPEG
 
 chown hts:video $M3U_FFMPEG
