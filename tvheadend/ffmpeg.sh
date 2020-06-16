@@ -19,4 +19,5 @@ wget -O $M3U $URL
 #adding a pipe for lines with links to media streams
 sed "/${STRING}/s/.*/${START}&${END}/;s/\r//g" $M3U > $M3U_FFMPEG
 
-chown hts:video $M3U_FFMPEG
+#maybe you need to change the owner of the playlist
+#chown hts:video $M3U_FFMPEG
