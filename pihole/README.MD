@@ -1,0 +1,1 @@
+Updating pi-hole ad-lists I do with [this](https://github.com/jacklul/pihole-updatelists/) tool

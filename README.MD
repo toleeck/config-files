@@ -1,0 +1,1 @@
+Here are some configurations. Mainly for containers and virtual machines. Operating system - debian 9-10. Hypervisor - proxmox 6.
