@@ -2,19 +2,49 @@
 <settings>
  
  <!--
- settings for the playlist from the shara.club
- Covers 95% of it. All names correspond to the channel names from the playlist - you don't have to match the EPG with the playlist.
+ настройки для плейлиста из shara.club
+ Охватывает его на 95%. Все названия соответствуют названиям каналов из плейлиста - не нужно сопоставлять EPG с плейлистом вручную.
  -->
- 
+
+ <!--
+путь к файлу ЕПГ. фактически это временный файл, который дальше обработает постпроцессор rex
+ -->	
   <filename>/var/www/html/epg/freshepg.xml</filename>
+<!--
+measure - измеряет длину телепередачи, nomark - удаляет часть мусора в описании телепередач
+ -->
   <mode>nomark measure</mode>
+<!--
+grab="y" - запуск собственно скачивания данных от "поставщика", run="y" - запуск постпроцессора, rex - название постпроцессора, который будет подготавляивать ЕПГ
+ -->
   <postprocess grab="y" run="y">rex</postprocess>
+<!--
+предоставить wg++ использовать случайную строку user-agent
+ -->
   <user-agent>random</user-agent>
+<!--
+данные регистрации с сайта wg++
+ -->
   <license wg-username="u$er" registered-email="mail@example.com" password="p@$$w0rd"></license>
+<!--
+логировать действия
+ -->
   <logging>on</logging>
+<!--
+параметры задержек (в секундах) перед повторным запросом
+ -->
   <retry channel-delay="10" index-delay="5" show-delay="3" time-out="20">5</retry>
+<!--
+не обрабатывать телепередачи длиной больше 12 часов и короче 1 минуты
+ -->	
   <skip>12,1</skip>
+<!--
+сохранять в телегиде 3 предыдущих дня, формировать телегид на 4 дня (0 - сегодня)
+ -->
   <timespan keeppastdays="3">3</timespan>
+<!--
+способ обновления i - инкрементальный (только изменения отслеживаются)
+-->
   <update>i</update>
 
 	<channel site="ntvplus.ru.E" site_id="00/01/09/-channel!j7h.png##214" xmltv_id="2x2">2x2</channel>
