@@ -1,4 +1,4 @@
-webgrabplus+ запускаю кроном один раз в три дня такой командой в кроне
+webgrabplus+ запускаю кроном один раз в три дня следующим образом
 ```bash
 15      0       1-30/3  *       *       /home/wg++/run.sh && sed -i '/title lang="en"/d' /var/www/html/epg/epg.xml
 ```
