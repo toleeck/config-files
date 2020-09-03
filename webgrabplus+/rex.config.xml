@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
- <!--
+<!--
 place this file in ./rex
 --> 
 
 <settings>
-  
+
+<!--
+rex запускается автоматически после обработки файла WebGrab++.config.xml и берёт в работу файл указанный там и сохраняет его отдельно
+--> 
   <filename>/var/www/html/epg/epg.xml</filename>
+<!--
+добавить в заголовок возрастное ограничение (если есть) и рейтинг (если есть)
+--> 
   <title lang="ru">'title'{, 'rating'}{. 'starrating'}</title>
+<!--
+добавить в подзаголовок (если есть), номер сезона и эпизода (если есть)
+--> 
   <sub-title>{'episode'}{ 'subtitle'}</sub-title>
+<!--
+указать в описании категорию передачи (если есть), страну (если есть), год (если есть) и актёрский состав (если есть)
+--> 
   <desc>{'category(-)'}{, 'country(, )'}{, 'productiondate' год. }'description[max_words=100]'\n{В ролях: 'actor(, )'}{, Режиссёр: 'director(, )'}{, Ведущий: 'presenter(, )'}</desc>
+<!--
+не формировать в новом телегиде поля с этими данными (они используются уже в других полях)
+--> 
   <credits></credits>
   <date></date>
   <country></country>
   <rating></rating>
   <category></category>
   <star-rating></star-rating>
-  
- <!--
-run this command to remove English TV-titles
-sed -i '/title lang="en"/d' /var/www/html/epg/epg.xml
-eg:
-./run.sh && sed -i '/title lang="en"/d' /var/www/html/epg/epg.xml
---> 
-  
+
 </settings>
