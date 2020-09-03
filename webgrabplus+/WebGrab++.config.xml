@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<settings>
+ 
+ <!--
+ settings for the playlist from the shara.club
+ Covers 95% of it. All names correspond to the channel names from the playlist - you don't have to match the EPG with the playlist.
+ -->
+ 
+  <filename>/var/www/html/epg/freshepg.xml</filename>
+  <mode>nomark measure</mode>
+  <postprocess grab="y" run="y">rex</postprocess>
+  <user-agent>random</user-agent>
+  <license wg-username="u$er" registered-email="mail@example.com" password="p@$$w0rd"></license>
+  <logging>on</logging>
+  <retry channel-delay="10" index-delay="5" show-delay="3" time-out="20">5</retry>
+  <skip>12,1</skip>
+  <timespan keeppastdays="3">3</timespan>
+  <update>i</update>
+
+	<channel site="ntvplus.ru.E" site_id="00/01/09/-channel!j7h.png##214" xmltv_id="2x2">2x2</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/16/-channel!iyv.png##220" xmltv_id="360° Подмосковье">360° Подмосковье</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/37/-channel!366.png##241" xmltv_id="Amedia 2">Amedia 2</channel>
+	<channel site="ntvplus.ru.E" site_id="01/16/85/-channel!ndc.png##240" xmltv_id="Amedia 1">Amedia 1</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/00/-channel!0pd.png##313" xmltv_id="Amedia Hit">Amedia Hit</channel>
+	<channel site="ntvplus.ru.E" site_id="02/30/88/-channel!3o5.png##244" xmltv_id="Amedia Premium HD">Amedia Premium HD</channel>
+	<channel site="ntvplus.ru.E" site_id="07/48/90/-channel!tv7.png##3" xmltv_id="Animal Planet">Animal Planet</channel>
+	<channel offset="0" same_as="Animal Planet" xmltv_id="Animal Planet HD">Animal Planet HD</channel>
+	<channel site="ntvplus.ru.E" site_id="08/92/47/-channel!nc8.png##188" xmltv_id="BRIDGE TV Русский Хит">BRIDGE TV Русский Хит</channel>
+	<channel site="ntvplus.ru.E" site_id="08/92/48/-channel!2em.png##187" xmltv_id="Bridge TV">Bridge TV</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/09/-channel!fmh.png##370" xmltv_id="Boomerang">Boomerang</channel>
+	<channel site="ntvplus.ru.E" site_id="10/27/09/-channel!s43.png##376" xmltv_id="Bridge TV Deluxe">Bridge TV Deluxe</channel>
+	<channel site="ntvplus.ru.E" site_id="09/05/48/-channel!hyb.png##337" xmltv_id="Bridge TV Hits">Bridge TV Hits</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/14/-channel!wdk.png##11" xmltv_id="Cartoon Network">Cartoon Network</channel>
+	<channel site="ntvplus.ru.E" site_id="10/26/69/-channel!4th.png##25" xmltv_id="Discovery Channel">Discovery Channel</channel>
+	<channel offset="0" same_as="Discovery Channel" xmltv_id="Discovery Channel HD">Discovery Channel HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/19/-channel!2zg.png##32" xmltv_id="Discovery Science">Discovery Science</channel>
+	<channel offset="0" same_as="Discovery Science"  xmltv_id="Discovery Science HD">Discovery Science HD</channel>	
+	<channel site="ntvplus.ru.E" site_id="00/46/90/-channel!wuv.png##131" xmltv_id="Disney">Disney</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/32/-channel!hop.png##366" xmltv_id="E tv">E tv</channel>
+	<channel site="ntvplus.ru.E" site_id="07/10/19/-channel!21o.png##4" xmltv_id="Euronews">Euronews</channel>
+	<channel site="ntvplus.ru.E" site_id="00/01/66/-channel!0xw.png##215" xmltv_id="Europa Plus TV">Europa Plus TV</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/04/-channel!4ag.png##115" xmltv_id="Eurosport 1 HD">Eurosport 1 HD</channel>
+	<channel offset="0" same_as="Eurosport 1 HD" xmltv_id="Eurosport 1">Eurosport 1</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/03/-channel!6n7.png##386" xmltv_id="Eurosport 2 HD">Eurosport 2 HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/25/-channel!iwa.png##21" xmltv_id="Extreme Sports">Extreme Sports</channel>
+	<channel site="ntvplus.ru.E" site_id="09/00/64/-channel!4cl.png##490" xmltv_id="FAN">FAN</channel>
+	<channel offset="0" same_as="FAN" xmltv_id="FAN HD">FAN HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/27/-channel!saj.png##264" xmltv_id="Fine Living">Fine Living</channel>
+	<channel offset="0" same_as="Fine Living" xmltv_id="Fine Living HD">Fine Living HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/28/-channel!l6c.png##305" xmltv_id="Food Network">Food Network</channel>
+	<channel offset="0" same_as="Food Network" xmltv_id="Food Network HD">Food Network HD</channel>
+	<channel site="ntvplus.ru.E" site_id="07/48/99/-channel!ier.png##341" xmltv_id="FOX HD">FOX HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/30/-channel!13v.png##149" xmltv_id="Fox Life">Fox Life</channel>
+	<channel site="ntvplus.ru.E" site_id="07/48/98/-channel!u4m.png##150" xmltv_id="Fox Russia">Fox Russia</channel>
+	<channel offset="0" same_as="Fox Russia" xmltv_id="FOX RUSSIA HD">FOX RUSSIA HD</channel>
+	<channel site="ntvplus.ru.E" site_id="02/32/80/-channel!l1q.png##124" xmltv_id="Gulli Girls">Gulli Girls</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/09/-channel!5bw.png##236" xmltv_id="History HD">History HD</channel>
+	<channel site="ntvplus.ru.E" site_id="07/23/60/-channel!lkx.png##223" xmltv_id="Hollywood HD">Hollywood HD</channel>
+	<channel site="ntvplus.ru.E" site_id="10/95/29/-channel!aka.png##155" xmltv_id="ID Xtra">ID Xtra</channel>
+	<channel site="ntvplus.ru.E" site_id="08/93/77/-channel!nvd.png##116" xmltv_id="Jim Jam">Jim Jam</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/40/-channel!fw6.png##37" xmltv_id="MCM Top">MCM Top</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/43/-channel!hzf.png##252" xmltv_id="MTV">MTV</channel>
+	<channel site="ntvplus.ru.E" site_id="13/23/87/-channel!2ir.png##59" xmltv_id="MTV Dance">MTV Dance</channel>
+	<channel site="ntvplus.ru.E" site_id="01/15/24/-channel!8bx.png##159" xmltv_id="MTV HITS">MTV HITS</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/47/-channel!ef4.png##118" xmltv_id="MTV Rocks">MTV Rocks</channel>
+	<channel site="ntvplus.ru.E" site_id="02/30/94/-channel!aew.png##125" xmltv_id="MTV Live HD">MTV Live HD</channel>	
+	<channel site="ntvplus.ru.E" site_id="00/49/56/-channel!gfs.png##242" xmltv_id="National Geographic HD">National Geographic HD</channel>
+	<channel offset="0" same_as="National Geographic HD" xmltv_id="Nat Geographic">Nat Geographic</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/52/-channel!tvj.png##257" xmltv_id="Nick Jr.">Nick Jr.</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/51/-channel!5r1.png##9" xmltv_id="Nickelodeon">Nickelodeon</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/30/-channel!lrs.png##196" xmltv_id="Nickelodeon HD">Nickelodeon HD</channel>
+	<channel site="ntvplus.ru.E" site_id="09/20/45/-channel!8ed.png##387" xmltv_id="O!">O!</channel>
+	<channel site="ntvplus.ru.E" site_id="00/02/04/-channel!0ec.png##332" xmltv_id="Paramount Channel">Paramount Channel</channel>
+	<channel site="ntvplus.ru.E" site_id="11/90/39/-channel!fua.png##251" xmltv_id="Paramount Comedy">Paramount Comedy</channel>
+	<channel offset="0" same_as="Paramount Comedy" xmltv_id="Paramount Comedy HD">Paramount Comedy HD</channel>
+	<channel site="ntvplus.ru.E" site_id="02/30/95/-channel!jrd.png##342" xmltv_id="RTG HD">RTG HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/62/-channel!f8i.png##121" xmltv_id="RU.TV">RU.TV</channel>
+	<channel site="ntvplus.ru.E" site_id="10/47/15/-channel!qy0.png##152" xmltv_id="SHOT TV">SHOT TV</channel>
+	<channel site="ntvplus.ru.E" site_id="10/96/79/-channel!qmk.png##502" xmltv_id="Sony Entertainment Television">Sony Entertainment Television</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/68/-channel!3a7.png##117" xmltv_id="SSony Sci-Fi">Sony Sci-Fi</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/67/-channel!mi6.png##318" xmltv_id="Sony Turbo">Sony Turbo</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/69/-channel!x5p.png##431" xmltv_id="Spike Russia">Spike Russia</channel>
+	<channel site="ntvplus.ru.E" site_id="00/02/20/-channel!lur.png##245" xmltv_id="TLC HD">TLC HD</channel>
+	<channel offset="0" same_as="TLC HD" xmltv_id="TLC">TLC</channel>
+	<channel site="ntvplus.ru.E" site_id="00/01/37/-channel!vfv.png##184" xmltv_id="TV 1000">TV 1000</channel>
+	<channel site="ntvplus.ru.E" site_id="00/01/38/-channel!drc.png##185" xmltv_id="TV 1000 Action">TV 1000 Action</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/44/-channel!h1b.png##178" xmltv_id="TV 1000 Русское кино">TV 1000 Русское кино</channel>	
+	<channel site="ntvplus.ru.E" site_id="08/89/29/-channel!ybl.png##123" xmltv_id="Tiji TV">Tiji TV</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/09/-channel!y0w.png##249" xmltv_id="Travel Channel HD">Travel Channel HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/18/71/-channel!lo1.png##444" xmltv_id="Travel+Adventure">Travel+Adventure</channel>
+	<channel offset="0" same_as="Travel+Adventure" xmltv_id="Travel+Adventure HD">Travel+Adventure HD</channel>	
+	<channel site="ntvplus.ru.E" site_id="01/16/97/-channel!zd8.png##36" xmltv_id="Детский мир">Детский мир</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/00/-channel!woj.png##457" xmltv_id="Дикий">Дикий</channel>
+	<channel site="ntvplus.ru.E" site_id="02/33/09/-channel!cd0.png##81" xmltv_id="Дом Кино">Дом Кино</channel>
+	<channel site="ntvplus.ru.E" site_id="02/33/10/-channel!1pt.png##368" xmltv_id="Дом Кино Премиум HD">Дом Кино Премиум HD</channel>
+	<channel site="ntvplus.ru.E" site_id="02/30/78/-channel!fas.png##108" xmltv_id="Домашний">Домашний</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/06/-channel!5hk.png##192" xmltv_id="Еврокино">Еврокино</channel>
+	<channel site="ntvplus.ru.E" site_id="00/05/10/-channel!yp4.png##357" xmltv_id="КВН ТВ">КВН ТВ</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/05/-channel!45m.png##127" xmltv_id="КХЛ">КХЛ</channel>
+	<channel site="ntvplus.ru.E" site_id="11/89/57/-channel!34d.png##269" xmltv_id="КХЛ HD">КХЛ HD</channel>	
+	<channel site="ntvplus.ru.E" site_id="11/88/80/-channel!o1z.png##107" xmltv_id="Карусель">Карусель</channel>
+	<channel site="ntvplus.ru.E" site_id="10/41/04/-channel!1mi.png##361" xmltv_id="Кино ТВ">Кино ТВ</channel>
+	<channel offset="0" same_as="Кино ТВ" xmltv_id="Кино ТВ HD">Кино ТВ HD</channel>	
+	<channel site="ntvplus.ru.E" site_id="00/01/27/-channel!43o.png##271" xmltv_id="Конный мир HD">Конный мир HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/25/-channel!7y1.png##360" xmltv_id="Любимое Кино">Любимое Кино</channel>
+	<channel site="ntvplus.ru.E" site_id="01/24/75/-channel!ild.png##70" xmltv_id="МАТЧ ПРЕМЬЕР">МАТЧ ПРЕМЬЕР</channel>
+	<channel offset="0" same_as="МАТЧ ПРЕМЬЕР" xmltv_id="МАТЧ ПРЕМЬЕР HD">МАТЧ ПРЕМЬЕР HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/27/-channel!p1d.png##209" xmltv_id="МАТЧ! Арена">МАТЧ! Арена</channel>
+	<channel offset="0" same_as="МАТЧ! Арена" xmltv_id="МАТЧ! Арена HD">МАТЧ! Арена HD</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/28/-channel!3z9.png##79" xmltv_id="МАТЧ! Боец">МАТЧ! Боец</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/32/-channel!i2o.png##211" xmltv_id="МАТЧ! Игра">МАТЧ! Игра</channel>
+	<channel offset="0" same_as="МАТЧ! Игра" xmltv_id="МАТЧ! Игра HD">МАТЧ! Игра HD</channel>
+	<channel site="ntvplus.ru.E" site_id="07/92/25/-channel!hla.png##126" xmltv_id="МАТЧ! Страна">МАТЧ! Страна</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/29/-channel!mqs.png##13" xmltv_id="МАТЧ! Футбол 1">МАТЧ! Футбол 1</channel>
+   	<channel offset="0" same_as="МАТЧ! Футбол 1" xmltv_id="МАТЧ! Футбол 1 HD">МАТЧ! Футбол 1 HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/30/-channel!olz.png##51" xmltv_id="МАТЧ! Футбол 2">МАТЧ! Футбол 2</channel>
+	<channel offset="0" same_as="МАТЧ! Футбол 2" xmltv_id="МАТЧ! Футбол 2 HD">МАТЧ! Футбол 2 HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/31/-channel!u02.png##259" xmltv_id="МАТЧ! Футбол 3">МАТЧ! Футбол 3</channel>
+	<channel offset="0" same_as="МАТЧ! Футбол 3" xmltv_id="Матч! Футбол 3 HD">Матч! Футбол 3 HD</channel>
+	<channel site="ntvplus.ru.E" site_id="10/60/28/-channel!3d1.png##335" xmltv_id="Матч ТВ">Матч ТВ</channel>
+	<channel offset="0" same_as="Матч ТВ" xmltv_id="Матч! HD">Матч! HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/26/-channel!3ac.png##268" xmltv_id="Мама">Мама</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/91/-channel!vh1.png##89" xmltv_id="Мир">Мир</channel>
+	<channel site="ntvplus.ru.E" site_id="02/30/74/-channel!j2x.png##429" xmltv_id="Мир Premium HD">Мир Premium HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/37/-channel!xzd.png##320" xmltv_id="Мир Сериала">Мир Сериала</channel>
+	<channel site="ntvplus.ru.E" site_id="07/22/68/-channel!i8o.png##294" xmltv_id="Морской">Морской</channel>
+	<channel site="ntvplus.ru.E" site_id="10/41/02/-channel!6di.png##199" xmltv_id="Москва 24">Москва 24</channel>
+	<channel site="ntvplus.ru.E" site_id="01/19/94/-channel!92e.png##171" xmltv_id="Моя Планета">Моя Планета</channel>
+	<channel offset="0" same_as="Моя Планета" xmltv_id="Моя планета HD">Моя планета HD</channel>
+	<channel site="ntvplus.ru.E" site_id="02/34/69/-channel!fcl.png##250" xmltv_id="Муз-ТВ">Муз-ТВ</channel>
+	<channel site="ntvplus.ru.E" site_id="00/86/80/-channel!7mn.png##82" xmltv_id="Музыка Первого">Музыка Первого</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/13/-channel!kbd.png##352" xmltv_id="Мульт">Мульт</channel>
+	<channel offset="0" same_as="Мульт" xmltv_id="Мульт HD">Мульт HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/10/44/-channel!y7p.png##449" xmltv_id="Мультимузыка">Мультимузыка</channel>
+	<channel site="ntvplus.ru.E" site_id="00/03/59/-channel!38a.png##362" xmltv_id="НСТ">НСТ</channel>
+	<channel site="ntvplus.ru.E" site_id="00/92/30/-channel!pwv.png##384" xmltv_id="НТВ Стиль">НТВ Стиль</channel>
+	<channel site="ntvplus.ru.E" site_id="00/92/29/-channel!2js.png##383" xmltv_id="НТВ Сериал">НТВ Сериал</channel>
+	<channel site="ntvplus.ru.E" site_id="00/92/28/-channel!kgm.png##385" xmltv_id="НТВ Право">НТВ Право</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/68/-channel!zxh.png##40" xmltv_id="НТВ">НТВ</channel>
+	<channel offset="0" same_as="НТВ" xmltv_id="НТВ HD">НТВ HD</channel>
+	<channel site="ntvplus.ru.E" site_id="11/86/59/-channel!s1r.png##172" xmltv_id="Наука">Наука</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/52/-channel!ej8.png##237" xmltv_id="ОТР">ОТР</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/37/-channel!80q.png##41" xmltv_id="Первый канал">Первый канал</channel>
+	<channel offset="0" same_as="Первый канал" xmltv_id="Первый HD">Первый HD</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/37/-channel!80q.png##296" xmltv_id="Первый канал (+2)">Первый канал (+2)</channel>
+	<channel offset="2" same_as="Первый канал (+2)" xmltv_id="Первый канал (+4)">Первый канал (+4)</channel>
+	<channel offset="6" same_as="Первый канал (+2)" xmltv_id="Первый канал (+8)">Первый канал (+8)</channel>
+	<channel site="ntvplus.ru.E" site_id="11/98/35/-channel!i4s.png##511" xmltv_id="Победа">Победа</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/54/-channel!xeb.png##5" xmltv_id="Пятница">Пятница</channel>
+	<channel offset="0" same_as="Пятница" xmltv_id="Пятница HD">Пятница HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/16/81/-channel!mjk.png##87" xmltv_id="Пятый канал">Пятый канал</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/29/-channel!pau.png##44" xmltv_id="РБК">РБК</channel>
+	<channel site="ntvplus.ru.E" site_id="10/86/16/-channel!6x9.png##15" xmltv_id="РЕН ТВ">РЕН ТВ</channel>
+	<channel offset="0" same_as="РЕН ТВ" xmltv_id="РЕН HD">РЕН HD</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/53/-channel!f13.png##42" xmltv_id="Россия 1">Россия 1</channel>
+	<channel offset="0" same_as="Россия 1" xmltv_id="Россия 1 HD">Россия 1 HD</channel>
+	<channel site="ntvplus.ru.E" site_id="00/00/53/-channel!f13.png##433" xmltv_id="Россия 1 (+2)">Россия 1 (+2)</channel>
+	<channel offset="2" same_as="Россия 1 (+2)" xmltv_id="Россия 1 (+4)">Россия 1 (+4)</channel>
+	<channel offset="6" same_as="Россия 1 (+2)" xmltv_id="Россия 1 (+8)">Россия 1 (+8)</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/61/-channel!z0z.png##74" xmltv_id="Россия-24">Россия-24</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/65/-channel!vfx.png##353" xmltv_id="Русский бестселлер">Русский бестселлер</channel>
+	<channel site="ntvplus.ru.E" site_id="11/98/36/-channel!v8e.png##512" xmltv_id="Русский детектив">Русский детектив</channel>
+	<channel site="ntvplus.ru.E" site_id="02/31/15/-channel!nkn.png##191" xmltv_id="Русский иллюзион">Русский иллюзион</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/67/-channel!i23.png##354" xmltv_id="Русский роман">Русский роман</channel>
+	<channel site="ntvplus.ru.E" site_id="07/57/42/-channel!i63.png##508" xmltv_id="СТС Kids HD">СТС Kids HD</channel>
+	<channel site="ntvplus.ru.E" site_id="02/30/77/-channel!spx.png##23" xmltv_id="СТС">СТС</channel>
+	<channel site="ntvplus.ru.E" site_id="09/11/24/-channel!7g2.png##315" xmltv_id="СТС Love">СТС Love</channel>
+	<channel site="ntvplus.ru.E" site_id="01/15/14/-channel!mwd.png##452" xmltv_id="Супер">Супер</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/83/-channel!z06.png##30" xmltv_id="ТВ Центр">ТВ Центр</channel>
+	<channel site="ntvplus.ru.E" site_id="01/17/81/-channel!ues.png##235" xmltv_id="ТВ-3">ТВ-3</channel>
+	<channel site="ntvplus.ru.E" site_id="01/19/06/-channel!5hu.png##24" xmltv_id="ТНТ">ТНТ</channel>
+	<channel offset="0" same_as="ТНТ" xmltv_id="ТНТ HD">ТНТ HD</channel>
+	<channel site="ntvplus.ru.E" site_id="01/12/66/-channel!0d1.png##112" xmltv_id="ТНТ4">ТНТ4</channel>
+	<channel site="ntvplus.ru.E" site_id="01/24/16/-channel!866.png##369" xmltv_id="ТНТ MUSIC">ТНТ MUSIC</channel>
+	<channel site="ntvplus.ru.E" site_id="00/05/52/-channel!1k2.PNG##94" xmltv_id="Телеканал Звезда">Телеканал Звезда</channel>
+	<channel site="ntvplus.ru.E" site_id="11/89/59/-channel!zzo.png##458" xmltv_id="Точка отрыва">Точка отрыва</channel>
+	<channel site="ntvplus.ru.E" site_id="01/16/98/-channel!ycb.png##358" xmltv_id="Уникум">Уникум</channel>
+	<channel site="ntvplus.ru.E" site_id="02/32/30/-channel!1we.png##146" xmltv_id="Че">Че</channel>
+	<channel site="ntvplus.ru.E" site_id="02/34/65/-channel!v65.png##43" xmltv_id="Ю">Ю</channel>
+<channel site="tv.yandex.ru" site_id="213##153" xmltv_id="Авто Плюс">Авто Плюс</channel>
+<channel site="tv.yandex.ru" site_id="213##1662" xmltv_id="Бобёр">Бобёр</channel>
+<channel site="tv.yandex.ru" site_id="213##1729" xmltv_id="В мире животных HD">В мире животных HD</channel>
+<channel site="tv.yandex.ru" site_id="213##384" xmltv_id="Дождь">Дождь</channel>
+<channel offset="0" same_as="Дождь" xmltv_id="Дождь HD">Дождь HD</channel>
+<channel site="tv.yandex.ru" site_id="213##505" xmltv_id="Драйв">Драйв</channel>
+<channel site="tv.yandex.ru" site_id="213##930" xmltv_id="Еда Премиум">Еда Премиум</channel>
+<channel site="tv.yandex.ru" site_id="213##165" xmltv_id="Жара">Жара</channel>
+<channel site="tv.yandex.ru" site_id="213##741" xmltv_id="Комедийное HD">Комедийное HD</channel>
+<channel site="tv.yandex.ru" site_id="213##1671" xmltv_id="МАТЧ! Планета">МАТЧ! Планета</channel>
+<channel site="tv.yandex.ru" site_id="213##1738" xmltv_id="Наш Кинороман HD">Наш Кинороман HD</channel>
+<channel site="tv.yandex.ru" site_id="213##1588" xmltv_id="Остросюжетное HD">Остросюжетное HD</channel>
+<channel site="tv.yandex.ru" site_id="213##617" xmltv_id="Охота и рыбалка">Охота и рыбалка</channel>
+<channel site="tv.yandex.ru" site_id="213##1681" xmltv_id="Охотник и Рыболов HD">Охотник и Рыболов HD</channel>
+<channel site="tv.yandex.ru" site_id="213##1586" xmltv_id="Премиальное HD">Премиальное HD</channel>
+<channel site="tv.yandex.ru" site_id="213##331" xmltv_id="Приключения HD">Приключения HD</channel>
+<channel site="tv.yandex.ru" site_id="213##187" xmltv_id="Россия-Культура">Россия-Культура</channel>
+<channel site="tv.yandex.ru" site_id="213##1377" xmltv_id="Страшное HD">Страшное HD</channel>
+<channel site="tv.yandex.ru" site_id="213##328" xmltv_id="Футбол HD">Футбол HD</channel>
+<channel site="tv.yandex.ru" site_id="213##138" xmltv_id="Шокирующее">Шокирующее</channel>
+<channel site="tv.yandex.ru" site_id="213##2015" xmltv_id="Bridge TV Classic">Bridge TV Classic</channel>
+<channel site="tv.yandex.ru" site_id="213##1585" xmltv_id="DTX">DTX</channel>
+<channel site="tv.yandex.ru" site_id="213##1730" xmltv_id="Eureka HD">Eureka HD</channel>
+<channel site="tv.yandex.ru" site_id="213##288" xmltv_id="Extreme Sport">Extreme Sport</channel>
+<channel site="tv.yandex.ru" site_id="213##1699" xmltv_id="H2">H2</channel>
+<channel site="tv.yandex.ru" site_id="213##927" xmltv_id="iConcerts HD">iConcerts HD</channel>
+<channel site="tv.yandex.ru" site_id="213##1657" xmltv_id="Kapitan Fantastika HD">Kapitan Fantastika HD</channel>
+<channel site="tv.yandex.ru" site_id="213##223" xmltv_id="Nat Geo Wild">Nat Geo Wild</channel>
+<channel site="tv.yandex.ru" site_id="213##311" xmltv_id="Sony Channel">Sony Channel</channel>
+<channel site="tv.yandex.ru" site_id="213##156" xmltv_id="VH-1 Classic">VH-1 Classic</channel>
+<channel site="tv.yandex.ru" site_id="213##521" xmltv_id="Viasat Explore">Viasat Explore</channel>
+<channel site="tv.yandex.ru" site_id="213##277" xmltv_id="Viasat History">Viasat History</channel>
+<channel site="tv.yandex.ru" site_id="213##765" xmltv_id="Viasat Nature">Viasat Nature</channel>
+<channel site="tv.yandex.ru" site_id="213##1984" xmltv_id="Viasat Nature/History HD">Viasat Nature/History HD</channel>
+<channel site="tv.yandex.ru" site_id="213##455" xmltv_id="Viasat Sport">Viasat Sport</channel>
+<channel offset="0" same_as="Viasat Sport" xmltv_id="Viasat Sport HD">Viasat Sport HD</channel>
+<channel site="tv.yandex.ru" site_id="213##1011" xmltv_id="ViP Comedy">ViP Comedy</channel>
+<channel site="tv.yandex.ru" site_id="213##1013" xmltv_id="ViP Premiere">ViP Premiere</channel>
+<channel site="tv.yandex.ru" site_id="213##1012" xmltv_id="ViP Megahit">ViP Megahit</channel>
+
+</settings>
