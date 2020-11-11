@@ -50,27 +50,7 @@ grab="y" - запуск собственно скачивания данных �
 <!--
 чередую каналы от разных поставщиков, чтобы поменьше нагружать их серверы и с меньшей долей вероятности нарваться на бан
 -->
-	
-<?xml version="1.0"?>
-<settings>
-  
-  <filename>/var/www/html/epg/freshepg.xml</filename>
-  <mode>nomark measure</mode>
-  <postprocess grab="y" run="y">rex</postprocess>
-<!--  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent> -->
-  <user-agent>random</user-agent>
-  <license wg-username="toleeck" registered-email="kibodache@gmail.com" password="da154137"></license>
-  <logging>on</logging>
-  <retry channel-delay="2" index-delay="1" show-delay="1" time-out="20">5</retry>
-  <!--
-  <skip>12,1</skip>
-  
-  <timespan>0</timespan>
-  <timespan>0,16:20</timespan>
-  --> 
-  <timespan keeppastdays="3">2</timespan>
-  <update>i</update>
- 
+
 	<channel site="ntvplus.ru.E" site_id="00/01/09/-channel!j7h.png##214" xmltv_id="2x2">2x2</channel>
 	<channel site="ntvplus.ru.E" site_id="02/31/16/-channel!iyv.png##220" xmltv_id="360° Подмосковье">360° Подмосковье</channel>
 	<channel site="ntvplus.ru.E" site_id="02/30/99/-channel!015.png##263" xmltv_id="Авто 24">Авто 24</channel>
@@ -271,5 +251,17 @@ grab="y" - запуск собственно скачивания данных �
 <channel offset="2" same_as="Россия 1 (+2)" xmltv_id="Россия 1 (+4)">Россия 1 (+4)</channel>
 <channel offset="6" same_as="Первый канал (+2)" xmltv_id="Первый канал (+8)">Первый канал (+8)</channel>
 <channel offset="6" same_as="Россия 1 (+2)" xmltv_id="Россия 1 (+8)">Россия 1 (+8)</channel>
+	
+	<!--
+не решил что придумать с этими каналами
+НТВ Мир
+дикая охота hd
+дикая рыбалка hd
+арсенал hd
+матч! планета
+ufc тв
+eurosport gold hd
+3film - tv1000 premium вроде
+-->
 	
 </settings>
